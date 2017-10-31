@@ -1,0 +1,10 @@
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/a.dyumaev/AppData/Local/Temp/sbt-structure.xml
+all {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/products {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/test:products
+test
+all {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/products {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/test:products
+test
+all {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/products {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/test:products
+test
+all {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/products {file:/C:/Users/a.dyumaev/Documents/Scala-coursera/patmat/}root/test:products
+test
+submit spinyk@bk.ru L9daUUrPr5Ahsxuy

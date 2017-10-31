@@ -1,9 +1,5 @@
 package patmat
 
-import common._
-
-import scala.annotation.tailrec
-
 /**
   * Assignment 4: Huffman coding
   *
@@ -102,7 +98,7 @@ object Huffman {
   /**
     * Checks whether the list `trees` contains only one single code tree.
     */
-  def singleton(trees: List[CodeTree]): Boolean = trees.length == 1
+  def singleton(trees: List[CodeTree]): Boolean = trees.lengthCompare(1) == 0
 
   /**
     * The parameter `trees` of this function is a list of code trees ordered
@@ -117,7 +113,7 @@ object Huffman {
     * unchanged.
     */
   def combine(trees: List[CodeTree]): List[CodeTree] =
-    if (trees.length > 2) makeCodeTree(trees.head, trees.tail.head) :: trees.tail.tail sortWith ((t1, t2) => weight(t1) < weight(t2)) else trees
+    if (trees.lengthCompare(1) > 0) makeCodeTree(trees.head, trees.tail.head) :: trees.tail.tail sortWith ((t1, t2) => weight(t1) < weight(t2)) else trees
 
   /**
     * This function will be called in the following way:
@@ -137,7 +133,8 @@ object Huffman {
     *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
     */
 
-  def until(f1: List[CodeTree] => Boolean, f2: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = if (f1(trees)) trees else until(f1, f2)(f2(trees))
+  def until(f1: List[CodeTree] => Boolean, f2: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] =
+    if (f1(trees)) trees else until(f1, f2)(f2(trees))
 
   /**
     * This function creates a code tree which is optimal to encode the text `chars`.
@@ -198,19 +195,13 @@ object Huffman {
     * into a sequence of bits.
     */
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
-    def createList(codeTree: CodeTree, text: List[Char], acc: List[Bit]): List[Bit] = {
-      text match {
-        case Nil => acc
-        case head :: tail => codeTree match {
-          case fork@Fork(_, _, _, _) =>
-            if (chars(fork.left).contains(head)) createList(fork.left, text, acc :+ 0)
-            else createList(fork.right, text, acc :+ 1)
-          case Leaf(_, _) => createList(tree, text.tail, acc :+ 0)
-        }
-      }
+    def code(tree:  CodeTree)(c: Char): List[Bit] = tree match {
+      case Leaf(_, _) => Nil
+      case Fork(_, right, _, _) if chars(right).contains(c) => 1 :: code(right)(c)
+      case Fork(left, _, _, _)  => 0 :: code(left)(c)
     }
 
-    createList(tree, text, Nil)
+    text.flatMap(code((tree)))
   }
 
   // Part 4b: Encoding using code table
@@ -221,7 +212,7 @@ object Huffman {
     * This function returns the bit sequence that represents the character `char` in
     * the code table `table`.
     */
-  def codeBits(table: CodeTable)(char: Char): List[Bit] = table.filter(e => e._1 == char)(0)._2
+  def codeBits(table: CodeTable)(char: Char): List[Bit] = table.find(e => e._1 == char).get._2
 
   /**
     * Given a code tree, create a code table which contains, for every character in the
@@ -267,17 +258,8 @@ object Huffman {
   }
 }
 
-//object app extends App {
-//
-//  import Huffman._
-//
-//  println(encode(frenchCode)("hiefealstdrs".toList))
-//  println(secret)
-//  println(encode(frenchCode)("h".toList))
-//  println(encode(frenchCode)("i".toList))
-//  println(decode(frenchCode, List(0, 0, 1, 1, 1, 0, 1, 0)))
-//  println(decode(frenchCode, List(1, 1, 1, 0, 0)))
-//  println(decode(frenchCode, List(0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0)))
-//  println(decode(frenchCode, secret))
-//
-//}
+object test extends App {
+  import Huffman._
+
+  println(encode(frenchCode)(decodedSecret).equals(secret))
+}

@@ -2,59 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aba7321-047e-466c-bac2-05ef0e78e454" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f4130c70f3cc678979a9$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f4130c70f3cc678979a9$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f4130c70f3cc678979a9.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$f4130c70f3cc678979a9.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$codeBits$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$codeBits$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$combine$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$combine$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createCodeTree$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createList$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$createList$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$$anonfun$makeOrderedLeafList$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$CodeTree.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$CodeTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Fork$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Fork$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Fork.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Fork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Leaf$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Leaf$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Leaf.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/patmat/Huffman$Leaf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/progfun1-patmat_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/progfun1-patmat_2.11-0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6$$anon$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/patmat/HuffmanSuite$$anonfun$6$$anon$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageSubmission/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageSubmission/$global/streams/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/patmat-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/patmat-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/patmat-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/patmat-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-patmat-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala" afterPath="$PROJECT_DIR$/src/test/scala/patmat/HuffmanSuite.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/submit/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/submit/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/patmat.HuffmanSuite.xml" afterPath="$PROJECT_DIR$/target/test-reports/patmat.HuffmanSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=patmat.HuffmanSuite/test/out" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=patmat.HuffmanSuite/test/out" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -76,13 +29,9 @@
       <file leaf-file-name="Huffman.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="181" column="7" lean-forward="true" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
-              <folding>
-                <element signature="e#6274#6470#0" expanded="false" />
-                <element signature="e#8192#8334#0" expanded="false" />
-                <element signature="e#8558#8623#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="182" column="52" lean-forward="true" selection-start-line="182" selection-start-column="52" selection-end-line="182" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -453,12 +403,20 @@
       <workItem from="1508922955951" duration="19645000" />
       <workItem from="1509436396331" duration="3186000" />
       <workItem from="1509450186345" duration="543000" />
-      <workItem from="1509450751836" duration="7172000" />
+      <workItem from="1509450751836" duration="8809000" />
     </task>
+    <task id="LOCAL-00001" summary="Поправил таймауты">
+      <created>1509458590046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509458590046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30546000" />
+    <option name="totallyTimeSpent" value="32183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -479,7 +437,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24253732" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28880158" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28880158" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -504,6 +462,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Поправил таймауты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил таймауты" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -519,11 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6274#6470#0" expanded="false" />
-            <element signature="e#8192#8334#0" expanded="false" />
-            <element signature="e#8558#8623#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -539,11 +497,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6274#6470#0" expanded="false" />
-            <element signature="e#8192#8334#0" expanded="false" />
-            <element signature="e#8558#8623#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -559,11 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6274#6470#0" expanded="false" />
-            <element signature="e#8192#8334#0" expanded="false" />
-            <element signature="e#8558#8623#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -616,13 +566,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/patmat/Huffman.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="181" column="7" lean-forward="true" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
-          <folding>
-            <element signature="e#6274#6470#0" expanded="false" />
-            <element signature="e#8192#8334#0" expanded="false" />
-            <element signature="e#8558#8623#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="182" column="52" lean-forward="true" selection-start-line="182" selection-start-column="52" selection-end-line="182" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
